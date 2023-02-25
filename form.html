@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>from</title>
+</head>
+
+<body>
+    <h2>Equuriy</h2>
+    <form>
+        <fieldset>
+            <legend> Enquiry</legend>
+            Name: 
+            <input type="text" name="name" value="" placeholder="Enter your name hear" />
+            <!-- from element select
+                option group   -->
+
+
+            <br>
+            <br>
+            Address :<textarea name="address"></textarea>
+            <br />
+            <br />
+            Gender :
+            <input type="radio" value="m" name="gender" /> Male
+            <input type="radio" value="f" name="gender" /> Female
+            <input type="radio" value="o" name="gender" /> other
+            <br />
+            <br />
+            country:
+            <select>
+                <optgroup label="ASIA">
+                    <option value="india">Please select country</option>
+                    <option value="india"> india</option>
+                    <option value="Shri lanka">Shri india</option>
+                    <!-- optigroup is use for grouping the value -->
+                </optgroup>
+                <option value="USA"> USA</option>
+            </select>
+            <br>
+            <br>
+            Hobbies:
+            <input type="checkbox" name="hobbies[]">Dancing
+            <input type="checkbox" name="hobbies[]">Singing
+            <input type="checkbox" name="hobbies[]">Painting
+            <br><br>
+            Image:
+            <input type="file" name="image" />
+            <br><br>
+            <input type="reset" value="Reset" />
+            <input type="submit" />
+        </fieldset>
+    </form>
+</body>
+
+</html>
