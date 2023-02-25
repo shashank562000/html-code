@@ -1,0 +1,18 @@
+In css, selector 
+Two main selector 
+.class Select all element class="indro"
+#id (#firstname ) id="firstname"
+.className{
+definition
+}
+#id{
+    definition
+}
+class= use for multiples time 
+
+id is use only one time
+css properties
+width
+height
+backgroud Color
+float left and right

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div tag</title>
+    <style >
+        .main{
+            width: 500px;
+            height: 500px; 
+            background-color: rgb(180, 216, 230);
+        }
+        #parent-row-1
+        {
+            width: 500px;
+            height: 250px;
+            background-color: blanchedalmond;
+        }
+        #parent-row-1
+        {
+            width: 500px;
+            height: 250px;
+            background-color: rgb(234, 243, 243);
+        }
+        .col1{
+            width: 250px;
+            height: 250px;
+            background-color: greenyellow;
+            float: left;
+        }
+        .col2{
+            width: 250px;
+            height: 250px;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+<!-- div is only use for row only -->
+    <div class="main"> <!-- main div-->
+        <div id="parent-row-1">
+            <div class="col1">Home</div>
+            <div class="col2">About</div>
+        </div>
+      
+        <div id="parent-row-2">
+            <div class="col1">Gallery</div>
+            <div class="cal2">Contant</div>
+        </div>
+    </div>
+</body>
+</html>

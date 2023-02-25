@@ -12,12 +12,16 @@
         <fieldset>
             <legend>HTML 5</legend>
             Color:
-            <input type="color" name="color"/>
+            <input type="color" name="color" value="#FF0000" disabled=""/> 
+            <!-- <-- readonly is use to read only and disabledis use for  disable the age -->
             <br/>
             <br/>
             Email:
-            <input type="email" name="email" required="" placeholder="test@test.com" autofocus=""/>
-
+            <input type="email" name="email" required="" placeholder="test@test.com" value="test@test.com" autofocus="" readonly=""/>
+            <br/>
+            <br/>
+            Name:
+            <input type="text" name="name" maxlength="25">
             <br/>
             <br/>
             Password:
@@ -25,7 +29,7 @@
             <br/>
             <br/>
             Age:
-            <input type="number" name="age">
+            <input type="number" name="age" min="1" max="25">
             <br/>
             <br/>
             Secrte:
@@ -33,8 +37,20 @@
             <br/>
             <br/>
             Range:
-            <inpute type="range">
+            <input type="range" min="10" max="200" value="150"/>
             <br/>
+            <br/>
+            Hobbies:
+            <input type="checkbox" name="hobbies[]" checked=""/>Dancing
+            <input type="checkbox" name="hobbies[]">Singing
+            <input type="checkbox" name="hobbies[]">Reading
+
+            <br/>
+            <br/>
+            <input type="radio" name="gender">Male
+            <input type="radio" name="gender" checked="">Female
+            <br/>
+
             <br/>
             <input type="submit" value="Send"/>
         </fieldset>
